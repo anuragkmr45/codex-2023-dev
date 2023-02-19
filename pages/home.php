@@ -87,6 +87,10 @@ $result = mysqli_fetch_array($query);
         <div id="requests">
             <h2 class="text-center">Latest Requests</h2>
             <div class="row">
+                <?php
+                $query=mysqli_query($conn,"select * from request");
+                while($result = mysqli_fetch_array($query)) {
+                ?>
                 <div class="col-lg-4">
                     <div class="request w-75 my-3 mx-auto d-flex justify-content-between">
                         <div class="card-body">
@@ -96,16 +100,21 @@ $result = mysqli_fetch_array($query);
                             <p class="card-text">Hostel No - BH2
                             </p>
                             <p class="card-text">Time of request - req real Time</p>
-                            <a href="#" class="btn btn-outline-primary">Contact</a>
+                            <a href="../pages/chat/chat.html" class="btn btn-outline-primary">Contact</a>
                         </div>
                     </div>
                 </div>
+                <?php } ?>
             </div>
         </div>
 
         <div id="provider">
             <h2 class="text-center">Latest Provider</h2>
             <div class="row">
+                <?php
+                $query=mysqli_query($conn,"select * from resonse");
+                while($result = mysqli_fetch_array($query)) {
+                ?>
                 <div class="col-lg-6 col-sm-12">
                     <div class="request w-75 my-3 mx-auto d-flex justify-content-between">
                         <div class="card-body">
@@ -122,6 +131,9 @@ $result = mysqli_fetch_array($query);
                         </div>
                     </div>
                 </div>
+                <?php
+                }
+                ?>
             </div>
         </div>
     </div>

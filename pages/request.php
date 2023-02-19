@@ -82,7 +82,7 @@ $result = mysqli_fetch_array($query);
                             <p class="card-text">Hostel No - <?php echo $result['hostel'] ?>
                             </p>
                             <p class="card-text">Time of request - req real Time</p>
-                            <a href="#" class="btn btn-outline-primary">Contact</a>
+                            <a href="../pages/chat/chat.html" class="btn btn-outline-primary">Contact</a>
                         </div>
                     </div>
                                             <?php 

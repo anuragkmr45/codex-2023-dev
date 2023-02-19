@@ -149,6 +149,7 @@ $result = mysqli_fetch_array($query);
                                     <p class="card-text">Present at BH6</p>
                                     <p class="card-text">Expire Date - Dec 2023</p>
                                 </div>
+                                <button href="../pages/chat/chat.html" class="btn btn-primary">Contact</button>
                             </div>
                         </div>
                     </div>
@@ -163,6 +164,7 @@ $result = mysqli_fetch_array($query);
                                     <p class="card-text">Present at BH6</p>
                                     <p class="card-text">Expire Date - Dec 2023</p>
                                 </div>
+                                        <button href="../pages/chat/chat.html" class="btn btn-primary">Contact</button>
                             </div>
                         </div>
                     </div>
@@ -177,6 +179,7 @@ $result = mysqli_fetch_array($query);
                                     <p class="card-text">Present at BH6</p>
                                     <p class="card-text">Expire Date - Dec 2023</p>
                                 </div>
+                                        <button href="../pages/chat/chat.html" class="btn btn-primary">Contact</button>
                             </div>
                         </div>
                     </div>
@@ -200,6 +203,7 @@ $result = mysqli_fetch_array($query);
                                         <h5 class="card-title"><?php echo $result['username']?></h5>
                                         <p class="card-text"><?php echo $result['rating']?></p>
                                         <p class="card-text"><?php echo $result['hostel']?></p>
+                                        <button href="../pages/chat/chat.html" class="btn btn-primary">Contact</button>
                                     </div>
                                 </a>
                             </div>
