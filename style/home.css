@@ -1,0 +1,28 @@
+.category-box img {
+    filter: blur(0.5px);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.category-box img:hover {
+    box-shadow: 0px 5px 5px 0px #0c073798;
+    filter: blur(3px);
+    transition-duration: 0.5s;
+}
+
+.category-box h3 {
+    position: relative;
+    top: -8rem;
+}
+
+.request {
+    padding: 1rem;
+    border: 1px solid inherit;
+    border-radius: 1rem;
+}
+
+.request:hover {
+    box-shadow: 0 15px 15px 0 #0c0737b9;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
